@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  recipe_rest_api:
+  app:
     build:
       context: .
     ports:
