@@ -7,6 +7,6 @@ services:
     ports:
     - "8000:8000"
     volumes:
-    - ./app:/app
+    - ./resipe_rest_api:/resipe_rest_api
     command: >
       sh -c "python manage.py runserver 0.0.0.0:8000"
